@@ -1,0 +1,40 @@
+settings =
+{
+
+    android =
+    {
+      versionCode = "1"
+    },
+
+	orientation =
+	{
+		default = "portrait",
+		supported =
+		{
+		"portrait",
+		},
+
+	},
+
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = false,
+                        UIApplicationExitsOnSuspend = true,
+                        CFBundleIconFile = "Icon.png",
+						CFBundleIconFiles = {
+						   "Icon.png",
+						   "Icon@2x.png",
+						   "Icon-72.png",
+						},
+                },
+                UIAppFonts = 
+                        {
+                                "customfont.ttf"
+                        },	                
+        }
+
+
+
+}
